@@ -1,0 +1,316 @@
+
+<div class="container" >
+    <div class="row" >
+        <div class="col-md-8 col-md-offset-2 gridcon"  >
+            <div class="hoverwrapper" (mouseover)="EmailOpacity=1" (mouseleave)="EmailOpacity=0">
+                <div  class="TitleCard" >
+
+                </div>
+                <div class="opac" >
+                    <h3 class="name"> CELINA BIURRUN</h3>
+                    <hr class="linebreak">
+                    <p  class="text">
+                        I come from San Nicolás de los Arroyos, Argentina and have lived in Mexico, Brazil and Switzerland. I made my first acting debut on the short film ‘Sekhem” in 2014, and have worked as an actress, producer and director since then. I am the co-founder of the Los Angeles based art collective Cosmo Entertainment and the media production company Trikon, Inc.
+                        <br>My greatest teacher in life has been the cultures I became acquainted with while moving from country to country since I was 14. I love the craft of filmmaking because it offers me the chance to still explore diverse life situations that contribute towards mine as well as other people’s inner growth.
+                    </p>
+                </div>
+                <mat-grid-list   [cols]="2" rowHeight="1:1" [gutterSize]="20" class="list" >
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land6.JPG" class="img">
+                    </mat-grid-tile>
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land7.png" class="img">
+                    </mat-grid-tile>
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land5.JPG" class="img" >
+                      </mat-grid-tile>
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land3.jpg" class="img" >
+                    </mat-grid-tile>
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="mobiletile">
+                        <img src="../../assets/Land1.jpg" class="img" >
+                    </mat-grid-tile>
+                    <mat-grid-tile [colspan]="1" [rowspan]="1" class="mobiletile">
+                        <img src="../../assets/Land2.JPG" class="img" >
+                    </mat-grid-tile>
+                </mat-grid-list>
+                <!--INFO BUTTONS -->
+                <div class="contactbuttons" [ngStyle]="{opacity: EmailOpacity}" >
+                    <mat-icon class="emailicon">
+                        email
+                    </mat-icon>
+                    <h3 class="email">        BiurrunCelina@gmail.com
+                    </h3>
+                </div>
+
+                <!-- MOBILE PORTFOLIO TITLE -->
+                <h3 class="portfolio_title" #PortfolioTitle>Portfolio</h3>
+                <mat-icon class="material-icons portfolio_icon" (click)="scroll(PortfolioTitle)">keyboard_arrow_down</mat-icon>
+            </div>
+            <!-- ----------------------------------------------------------------------------------------------->
+            <mat-grid-list cols="4" rowHeight="1:1" [gutterSize]="15"  class="gridlist">
+
+
+
+
+                <!-- ALLY -->
+                <mat-grid-tile class="gridtile" [colspan]="4" [rowspan]="1" >
+                    <div class="textwrap">
+                        <h6 class="h6" >Director | Lead</h6>
+                        <h5 class="h5" >ALLY</h5>
+                        <hr class="hr">
+                        <p class="para" >An odyssey into the human mind discovering both sides of the subconscious spectrum</p>
+                    </div>
+                    <mat-card class="Ally"></mat-card>
+                </mat-grid-tile>
+
+
+                <!-- PASAJEROS EN TRANCE -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" > Co-Lead </h6>
+                        <h5 class="h5" >PASAJEROS EN TRANCE</h5>
+                        <hr class="hr">
+                        <p class="para"  >A psychological voyage through the memory of time-obsessed office clerk Marcel as he chases the woman who stole his golden pocket watch</p>
+                    </div>
+                    <mat-card class="Pasajeros_en_Trance" ></mat-card>
+                </mat-grid-tile>
+
+
+                <!-- COS -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead | Producer</h6>
+                        <h5 class="h5" >COS</h5>
+                        <hr class="hr">
+                        <p class="para" >A woman discovers many sides to her inner self through fashion</p>
+                    </div>
+                    <mat-card class="COS">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- APRIL 19TH -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Director | Lead</h6>
+                        <h5 class="h5" >Avril 19</h5>
+                        <hr class="hr">
+                        <p class="para" >A struggling individual ponders psychological hysteria through outer distractions</p>
+                    </div>
+                    <mat-card class="April">
+                    </mat-card>
+                </mat-grid-tile>
+
+
+
+                <!-- CUBA -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >CUBA</h5>
+                        <hr class="hr">
+                        <p class="para" >Fashion Film</p>
+                    </div>
+                    <mat-card class="Cuba">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- ECLIPSE -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Producer</h6>
+                        <h5 class="h5" >ECLIPSE</h5>
+                        <hr class="hr">
+                        <p class="para" >Fashion Film</p>
+                    </div>
+                    <mat-card class="Eclipse">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- ANIISE -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Model</h6>
+                        <h5 class="h5" >ANIISE BEAUTY</h5>
+                        <hr class="hr">
+                        <p class="para" >Branded Content</p>
+                    </div>
+                    <mat-card class="Aniise">
+                    </mat-card>
+                </mat-grid-tile>
+
+
+                <!-- SEKHEM -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead </h6>
+                        <h5 class="h5" >Sekhem</h5>
+                        <hr class="hr">
+                        <p class="para" >An exploration of the relationship artist-art following a sculpture artist and her creative process.</p>
+                    </div>
+                   <mat-card class="Sekhem"></mat-card>
+                </mat-grid-tile>
+
+                <!--  FACELESS GOD -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Supporting</h6>
+
+                        <h5 class="h5" >Faceless God</h5>
+                        <hr class="hr">
+                        <p class="para" >Short Film</p>
+                    </div>
+                    <mat-card class="Faceless_God">
+                    </mat-card>
+                </mat-grid-tile>
+                <!-- GAMBERGER -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Art Director</h6>
+                        <h5 class="h5" >Gamberger</h5>
+                        <hr class="hr">
+                        <p class="para" >An exploration of the relationship artist-art following a sculpture artist and her creative process.</p>
+                    </div>
+                    <mat-card class="Gamberger"></mat-card>
+                </mat-grid-tile>
+
+                <!-- LA GATA -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Production Runner</h6>
+                        <h5 class="h5" >La Gata</h5>
+                        <hr class="hr">
+                        <p class="para" >Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+                    </div>
+                   <mat-card class="La_Gata">
+                    </mat-card>
+                </mat-grid-tile>
+
+
+                <!-- MARIA DEL CARMEN -->
+                <mat-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead </h6>
+                        <h5 class="h5" >Maria Del Carmen</h5>
+                        <hr class="hr">
+                        <p class="para"> María del Carmen debates whether to call her mom</p>
+                    </div>
+                    <mat-card class="Carmen">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- SEARCHING FOR JAAR -->
+                <mat-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Writer | Lead</h6>
+                        <h5 class="h5" >Searching For Jaar</h5>
+                        <hr class="hr">
+                        <p class="para"> The intricate cycle of life is symbolized through seven metaphysical incidents within someone’s mind.</p>
+                    </div>
+                    <mat-card class="Jaar">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- TIME-->
+                <mat-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >Time</h5>
+                        <hr class="hr"> Short Film
+                    </div>
+                    <mat-card class="Time">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- MEDDLE-->
+                <mat-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Model</h6>
+                        <h5 class="h5" >Meddle</h5>
+                        <hr class="hr"> Fashion Film
+                    </div>
+                    <mat-card class="Meddle">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- SOL Y MILAN -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >Sol Y Milan</h5>
+                        <hr class="hr">
+                    </div>
+
+                    <mat-card class="Sol">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- WAREHOUSE -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Co-Lead</h6>
+                        <h5 class="h5" >The Warehouse</h5>
+                        <hr class="hr">
+                    </div>
+                    <mat-card class="Warehouse">
+                    </mat-card>
+                </mat-grid-tile>
+
+                <!-- CARMENSITA -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+
+                        <h5 class="h5" >Carmensita</h5>
+                        <hr class="hr">
+                        <p class="para" >After five years of abandonment, Carmen’s mother returns home</p>
+                    </div>
+                    <mat-card class="Carmensita" ></mat-card>
+                </mat-grid-tile>
+
+                <!-- ZERI -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Producer</h6>
+
+                        <h5 class="h5" >Zeri - Contigo</h5>
+                        <hr class="hr">
+                        <p class="para" >Music Video</p>
+                    </div>
+                    <mat-card class="Zeri">
+                    </mat-card>
+                </mat-grid-tile>
+
+
+
+
+
+                <!-- THE NIGHT BELL -->
+                <mat-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Supporting</h6>
+                        <h5 class="h5" >The Night Bell</h5>
+                        <hr class="hr">
+                        <p class="para" >A nurse’s job at a morgue turns into a nightmare as the female corpses come to life</p>
+                    </div>
+                    <mat-card class="The_Night_Bell">
+                    </mat-card>
+                </mat-grid-tile>
+
+
+
+
+
+                <!-- --------------------------------------------------------------------------------------------->
+            </mat-grid-list>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
